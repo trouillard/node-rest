@@ -1,0 +1,19 @@
+{
+  "name": "frank-express-rest",
+  "version": "1.0.0",
+  "description": "Serveur Universel API REST",
+  "main": "src/server-rest.js",
+  "scripts": {
+    "start": "node src/server-rest.js"
+  },
+  "author": "Luciano Mammino",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "mysql": "^2.15.0",
+    "cors": "^2.8.4",    
+    "express": "^4.16.2"  
+  },
+  "devDependencies": {
+  }
+}
